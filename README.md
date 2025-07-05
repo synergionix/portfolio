@@ -1,6 +1,6 @@
-# Synergionix Technologies - Corporate Portfolio Website
+# Synergionix Technologies - Portfolio Website
 
-A modern, responsive corporate portfolio website for Synergionix Technologies, showcasing comprehensive technology solutions including AIMS/ISMS compliance consulting, AI implementation, and business transformation services.
+A modern, responsive portfolio website for Synergionix Technologies, showcasing comprehensive technology solutions including AIMS/ISMS compliance consulting, AI implementation, and business transformation services.
 
 ## 🚀 Features
 
@@ -61,8 +61,8 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/synergionix-technologies-website.git
-   cd synergionix-technologies-website
+   git clone https://github.com/your-username/portfolio.git
+   cd portfolio
    ```
 
 2. **Install dependencies**
@@ -256,20 +256,6 @@ The website uses a consistent design system:
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Support
-
-For technical support or questions about the website:
-
-- **Email**: support@synergionix.com
-- **Phone**: +1 (555) 123-4567
-- **GitHub Issues**: Create an issue in this repository
-
-## 🔄 Version History
-
-- **v1.0.0** - Initial release with full website functionality
-- **v1.1.0** - Added mobile responsiveness improvements
-- **v1.2.0** - Enhanced SEO optimization and performance
 
 ---
 
