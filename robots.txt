@@ -1,0 +1,18 @@
+
+User-agent: *
+Allow: /
+
+# Allow access to CSS and JS files
+Allow: *.css
+Allow: *.js
+
+# Disallow access to sensitive files
+Disallow: /admin/
+Disallow: /private/
+Disallow: *.json$
+
+# Sitemap location
+Sitemap: https://synergionix.com/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
