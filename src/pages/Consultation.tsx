@@ -35,25 +35,38 @@ const Consultation = () => {
     setIsSubmitting(true);
 
     try {
-      // Simulate form submission
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      toast({
-        title: 'Consultation Request Submitted!',
-        description: "We'll contact you within 24 hours to confirm your appointment.",
-        duration: 5000
+      // Using Formspree for form handling
+      const response = await fetch('https://formspree.io/f/xvgrnvpa', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          ...formData,
+          _replyto: formData.email,
+          _subject: `New inquiry from ${formData.name} - ${formData.service}`,
+        }),
       });
 
-      setFormData({
-        name: '',
-        email: '',
-        company: '',
-        phone: '',
-        service: '',
-        preferredDate: '',
-        preferredTime: '',
-        message: ''
-      });
+      if (response.ok) {
+        toast({
+          title: 'Consultation Request Submitted!',
+          description: "We'll contact you within 24 hours to confirm your appointment.",
+          duration: 5000
+        });
+        setFormData({
+          name: '',
+          email: '',
+          company: '',
+          phone: '',
+          service: '',
+          preferredDate: '',
+          preferredTime: '',
+          message: ''
+        });
+      } else {
+        throw new Error('Failed to send message');
+      }
     } catch (error) {
       toast({
         variant: 'destructive',

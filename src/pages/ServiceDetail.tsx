@@ -131,7 +131,7 @@ const ServiceDetail = () => {
     },
     'ai-transformation': {
       icon: TrendingUp,
-      title: 'AI Adoption & Transformation Consulting',
+      title: 'AI Transformation Training & Consulting',
       description: 'Strategic consulting services to guide businesses through AI adoption and digital transformation. We help organizations leverage AI technologies for competitive advantage.',
       image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80',
       overview: 'Our AI transformation consulting helps organizations navigate the complex journey of AI adoption. We provide strategic guidance, change management support, and practical roadmaps for successful AI implementation across your organization.',
@@ -140,7 +140,7 @@ const ServiceDetail = () => {
         'Digital transformation strategy',
         'Change management support',
         'ROI optimization planning',
-        'Technology integration consulting'
+        'AI Technology training & integration consulting'
       ],
       benefits: [
         'Strategic AI adoption roadmap',

@@ -29,7 +29,7 @@ const Legal = () => {
           <p class="mb-6">We implement appropriate security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.</p>
 
           <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
-          <p>If you have questions about this privacy policy, please contact us at <a href="mailto:privacy@synergionix.com" class="text-blue-600 hover:underline">privacy@synergionix.com</a>.</p>
+          <p>If you have questions about this privacy policy, please contact us at <a href="mailto:support@synergionix.com" class="text-blue-600 hover:underline">support@synergionix.com</a>.</p>
         </section>
       `
     },
@@ -151,8 +151,8 @@ const Legal = () => {
                 <p><strong>Last updated:</strong> January 1, 2025</p>
                 <p>
                   For questions about this policy, contact us at{' '}
-                  <a href="mailto:legal@synergionix.com" className="text-blue-600 hover:underline">
-                    legal@synergionix.com
+                  <a href="mailto:support@synergionix.com" className="text-blue-600 hover:underline">
+                    support@synergionix.com
                   </a>
                 </p>
               </div>

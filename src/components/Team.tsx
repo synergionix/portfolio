@@ -25,7 +25,7 @@ const teamMembers = [
   },
   {
     name: 'David Thompson',
-    role: 'Senior Transformation Consultant',
+    role: 'Head of Transformation',
     bio: 'Leads digital transformation strategies with expertise in change management and enterprise systems.',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80',
     socials: { linkedin: '#', email: 'david.thompson@synergionix.com' },

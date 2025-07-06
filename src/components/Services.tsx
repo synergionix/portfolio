@@ -50,14 +50,14 @@ const Services = () => {
     {
       id: 'ai-transformation',
       icon: TrendingUp,
-      title: 'AI Adoption & Transformation Consulting',
+      title: 'AI Transformation Training & Consulting',
       description: 'Strategic consulting services to guide businesses through AI adoption and digital transformation. We help organizations leverage AI technologies for competitive advantage.',
       features: [
         'AI Readiness Assessment',
         'Digital Transformation Strategy',
         'Change Management Support',
         'ROI Optimization Planning',
-        'Technology Integration Consulting'
+        'AI Technology training & integration consulting'
       ],
       color: 'from-orange-500 to-red-500'
     }

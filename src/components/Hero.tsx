@@ -26,7 +26,7 @@ const Hero = () => {
           <div className="animate-fade-in">
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-relaxed mb-8 text-center">
               Build with AI to Break Barriers
-              <span className="gradient-text block mt-2">Backed with Compliance</span>
+              <span className="gradient-text block mt-2">Backed by Compliance</span>
             </h1>
             <p></p>
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-3xl mx-auto">
