@@ -3,32 +3,32 @@ import { Linkedin, Mail } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: 'Dr. Sarah Johnson',
+    name: 'S Raja Ramachandran',
     role: 'CEO & Founder',
-    bio: 'Over 15 years of leadership in information security and compliance strategy for global enterprises.',
-    image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=400&q=80',
-    socials: { linkedin: '#', email: 'sarah.johnson@synergionix.com' },
+    bio: 'Over 25 years of leadership in IT Services spearheading many projects across the globe, specialising in ISMS/AIMS compliance strategy for global enterprises.',
+    image: '<ToBeAdded>',
+    socials: { linkedin: '#', email: 'rajaramachandran.s@synergionix.com' },
   },
   {
-    name: 'Michael Chen',
+    name: 'Arvind R',
     role: 'Head of AI Solutions',
-    bio: 'Architect of enterprise AI systems, with expertise in agentic workflows and applied machine learning.',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80',
-    socials: { linkedin: '#', email: 'michael.chen@synergionix.com' },
+    bio: 'Architect of enterprise AI systems, with expertise in Agentic Workflows, LLM Integrations, RAG, Model Fine-Tuning and applied Machine Learning in a diverse range of business cases.',
+    image: '<ToBeAdded>',
+    socials: { linkedin: '#', email: 'arvind.r@synergionix.com' },
   },
   {
-    name: 'Emily Rodriguez',
+    name: 'Ramanathan Kumar',
     role: 'Director of Compliance',
-    bio: 'Expert in ISMS and AIMS implementation, with a focus on high-stakes regulatory environments.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80',
-    socials: { linkedin: '#', email: 'emily.rodriguez@synergionix.com' },
+    bio: 'Veteran in ISMS and InfoSec implementation, with a focus on high-stakes regulatory environments across top global organisations across a broad range of industries and domains.',
+    image: '<ToBeAdded>',
+    socials: { linkedin: '#', email: 'kumar.ramanathan@synergionix.com' },
   },
   {
-    name: 'David Thompson',
+    name: 'Nithya R',
     role: 'Head of Transformation',
-    bio: 'Leads digital transformation strategies with expertise in change management and enterprise systems.',
-    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=400&q=80',
-    socials: { linkedin: '#', email: 'david.thompson@synergionix.com' },
+    bio: 'Leads enterprise-scale digital modernization and systems integration programs across SaaS and cloud environments with expertise in architecture and strategy.',
+    image: '<ToBeAdded>',
+    socials: { linkedin: '#', email: 'nithya.r@synergionix.com' },
   },
 ];
 
@@ -52,13 +52,14 @@ const Team = () => {
               className="flex flex-col items-center text-center bg-gray-50/70 rounded-2xl p-6 shadow-sm hover:shadow-lg transition-shadow duration-300"
             >
               {/* Avatar */}
-              <div className="relative w-32 h-32 mb-4">
+              {/* TODO: Add actual images, LinkedIn for each member */}
+              {/* <div className="relative w-32 h-32 mb-4">
                 <img
                   alt={`Portrait of ${member.name}`}
                   src={member.image}
                   className="rounded-full w-full h-full object-cover shadow-md"
                 />
-              </div>
+              </div> */}
 
               {/* Name & Role */}
               <h3 className="text-xl font-bold text-gray-800">{member.name}</h3>
@@ -69,9 +70,11 @@ const Team = () => {
                 {member.bio}
               </p>
 
+              <br />
+
               {/* Socials */}
               <div className="mt-auto flex justify-center space-x-4 pt-2">
-                <a
+                {/* <a
                   href={member.socials.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -79,7 +82,7 @@ const Team = () => {
                   aria-label={`${member.name} LinkedIn`}
                 >
                   <Linkedin size={20} />
-                </a>
+                </a> */}
                 <a
                   href={`mailto:${member.socials.email}`}
                   className="text-gray-400 hover:text-primary transition-colors"

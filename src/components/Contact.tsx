@@ -74,12 +74,13 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    {
-      icon: Phone,
-      title: 'Phone',
-      details: ['+1 (555) 123-4567'],
-      action: 'tel:+15551234567'
-    },
+    // TODO: Add Phone Number
+    // {
+    //   icon: Phone,
+    //   title: 'Phone',
+    //   details: ['+1 (555) 123-4567'],
+    //   action: 'tel:+15551234567'
+    // },
     {
       icon: Mail,
       title: 'Email',
@@ -89,7 +90,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Address',
-      details: ['123 Technology Drive', 'Suite 400, Tech City, TC 12345'],
+      details: ['JP Nagar', 'Bengaluru, Karnataka, India'],
       action: '#'
     },
     {

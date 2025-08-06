@@ -26,6 +26,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/case-studies/:id" element={<CaseStudyDetail />} />
           <Route path="/services/:id" element={<ServiceDetail />} />
+          {/* TODO: Add resources and enable below paths */}
           {/* <Route path="/careers" element={<Careers />} /> */}
           {/* <Route path="/blog" element={<Blog />} /> */}
           {/* <Route path="/resources" element={<Resources />} /> */}

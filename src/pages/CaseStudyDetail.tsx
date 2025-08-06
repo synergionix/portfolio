@@ -10,40 +10,40 @@ const CaseStudyDetail = () => {
 
   const caseStudies = {
     'global-financial-aims': {
-      category: 'AIMS Compliance',
-      title: 'FinTech AIMS Compliance Transformation',
-      client: 'Major Banking Corporation',
-      duration: '8 months',
-      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80',
-      description: 'Successfully implemented comprehensive AIMS compliance framework for a multinational banking institution, achieving 100% regulatory compliance and establishing robust audit capabilities.',
-      challenge: 'The client faced significant regulatory compliance gaps in their information management systems, with outdated processes and insufficient audit trails threatening their operational license.',
-      solution: 'We conducted a comprehensive gap analysis, developed a tailored compliance roadmap, and implemented automated monitoring systems while training their internal audit team.',
-      results: [
-        '100% AIMS compliance achievement within 8 months',
-        '60% reduction in audit preparation time',
-        '40% improvement in information security posture',
-        'Zero compliance violations post-implementation'
-      ],
-      technologies: ['AIMS Framework', 'Compliance Management Systems', 'Audit Analytics', 'Risk Assessment Tools'],
-      outcomes: 'The transformation resulted in enhanced regulatory standing, improved operational efficiency, and strengthened customer trust through robust compliance practices.'
-    },
-    'healthcare-aims': {
-      category: 'AIMS Compliance',
-      title: 'Healthcare Network AIMS Implementation',
-      client: 'Regional Healthcare Provider',
+      category: 'AIMS & ISMS Compliance',
+      title: 'Credit Rating Agency AIMS & ISMS Integration (Cloud AI)',
+      client: 'Major Credit Rating Agency',
       duration: '6 months',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?auto=format&fit=crop&w=1200&q=80',
-      description: 'Deployed enterprise-wide AIMS compliance solution for a healthcare network, ensuring patient data protection and regulatory adherence across multiple facilities.',
-      challenge: 'The healthcare network struggled with disparate information systems and inconsistent compliance practices across their facilities, creating significant regulatory risks.',
-      solution: 'We standardized compliance processes, implemented unified monitoring systems, and established a center of excellence for ongoing compliance management.',
+      image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80',
+      description: 'Delivered integrated AIMS (ISO 42001) and ISMS (ISO 27001/27017/27018) rollout for a global credit-rating agency’s cloud-based AI services, ensuring full audit-readiness and information security assurance.',
+      challenge: 'The client had fragmented AI risk management and legacy data security controls across cloud deployments—creating gaps in bias oversight, auditability, and regulatory trust.',
+      solution: 'We performed comprehensive risk & gap analysis, designed an integrated compliance roadmap, deployed automated bias monitoring and data lineage tools, formalized a Statement of Applicability (SoA), and trained internal audit and governance teams.',
+      results: [
+        '100 % AIMS & ISMS compliance achieved within 6 months',
+        '60 % reduction in audit preparation effort',
+        '40 % uplift in AI fairness and data security posture',
+        'Zero compliance violations post-deployment'
+      ],
+      technologies: ['ISO 42001 AIMS', 'ISO 27001/27017/27018 ISMS', 'Automated Compliance & Bias Analytics', 'Unified Risk & Governance Platform'],
+      outcomes: 'Strengthened regulatory standing, operational efficiency across AI and data workflows, and enhanced stakeholder trust via transparent and ethical governance.'
+    },
+    'cloud-aims': {
+      category: 'AIMS & ISMS Compliance',
+      title: 'Integrated AIMS & ISMS Rollout for Cloud AI Systems',
+      client: 'Global SaaS Platform',
+      duration: '6 months',
+      image: 'https://plus.unsplash.com/premium_photo-1733306493254-52b143296396?auto=format&fit=crop&w=1200&q=80',
+      description: 'Implemented enterprise-wide AIMS and ISMS solution for a cloud-based platform provider, ensuring both AI governance (ISO 42001) and cloud information security (ISO 27001/27017/27018) across distributed services.',
+      challenge: 'The organization managed AI services across global cloud environments without unified controls, leading to fragmented risk oversight and audit readiness gaps.',
+      solution: 'We unified AI and information security governance by aligning AIMS and ISMS frameworks, implemented a Statement of Applicability (SoA) for both ISO 42001 and ISO 27001/27017/27018, set up cross-functional audit processes, and established a governance hub for ongoing monitoring.',
       results: [
         '95% improvement in compliance consistency',
-        '50% reduction in compliance-related incidents',
-        '30% faster regulatory reporting',
-        'Enhanced patient data protection'
+        '50% fewer compliance audit non-conformities',
+        '30% accelerated regulatory reporting',
+        'Robust protection for AI-generated and customer data'
       ],
-      technologies: ['Healthcare Information Systems', 'AIMS Standards', 'Compliance Automation', 'Data Governance'],
-      outcomes: 'The implementation enhanced patient trust, streamlined operations across facilities, and established a foundation for future healthcare technology adoption.'
+      technologies: ['Cloud ISMS (ISO 27001 / 27017 / 27018)', 'ISO 42001 AIMS Standards', 'Compliance Automation', 'Unified Risk Management'],
+      outcomes: 'This integrated initiative improved stakeholder trust, ensured seamless audit readiness, and created a scalable compliance foundation to support future AI deployments in cloud environments.'
     },
     'technology-iso27001': {
       category: 'ISMS Compliance',
@@ -63,23 +63,23 @@ const CaseStudyDetail = () => {
       technologies: ['ISO 27001 Standards', 'Security Management Systems', 'Risk Assessment Frameworks', 'Policy Management'],
       outcomes: 'The certification opened new market opportunities, enhanced client confidence, and established the company as a trusted enterprise software provider.'
     },
-    'retail-ai-analytics': {
-      category: 'AI Solutions',
-      title: 'Retail Chain AI-Powered Customer Analytics Platform',
-      client: 'National Retail Chain',
-      duration: '9 months',
+    'saas-ai-infosec': {
+      category: 'AI Security Solutions',
+      title: 'AI-First Cloud Security Transformation for SaaS Platform',
+      client: 'Leading SaaS Platform',
+      duration: '5 months',
       image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
-      description: 'Developed and implemented an advanced AI-powered customer analytics platform that revolutionized personalized marketing and inventory optimization for a major retail chain.',
-      challenge: 'The retail chain struggled with inventory management, customer segmentation, and personalizing marketing campaigns, leading to excess inventory and declining customer engagement.',
-      solution: 'We built a comprehensive AI platform using machine learning algorithms for predictive analytics, customer behavior analysis, and automated inventory optimization.',
+      description: 'Executed full rollout of an AI-powered security platform for cloud infrastructure and SaaS applications, enabling real-time threat detection, behavioral risk scoring, misconfiguration remediation, and compliance insights.',
+      challenge: 'The SaaS provider lacked unified visibility into cloud misconfigurations, anomalous user behaviors, and evolving threat patterns resulting in undetected exposures and slow incident response.',
+      solution: 'Engineered an AI-based security stack that continuously monitors cloud workloads, applies anomaly detection models, automates misconfiguration scanning, integrates behavioral analytics, and triggers automated incident response workflows.',
       results: [
-        '35% improvement in inventory turnover',
-        '50% increase in marketing campaign effectiveness',
-        '25% boost in customer retention rates',
-        '$2.5M annual cost savings achieved'
+        '70% reduction in cloud security breaches',
+        '50% enhanced real-time compliance visibility',
+        '60% faster threat response time',
+        '$10M breach cost savings through early remediation'
       ],
-      technologies: ['Machine Learning', 'Predictive Analytics', 'Customer Segmentation AI', 'Inventory Optimization'],
-      outcomes: 'The AI platform transformed the retail operations, delivering significant cost savings while improving customer satisfaction and loyalty.'
+      technologies: ['Cloud Threat Analytics AI', 'Automated Misconfiguration Detection', 'Behavioral Risk Scoring', 'AI-Orchestrated Response Flows'],
+      outcomes: 'Strengthened organizational resilience against advanced threats, accelerated compliance posture, and significantly reduced security incident costs while empowering security teams with deep cloud visibility.'
     }
   };
 

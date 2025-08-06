@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 const Legal = () => {
   const location = useLocation();
-  const page = location.pathname.substring(1); // Remove leading slash
+  const page = location.pathname.substring(1);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -148,7 +148,7 @@ const Legal = () => {
                 dangerouslySetInnerHTML={{ __html: currentPage.content }}
               />
               <div className="mt-16 text-sm text-gray-500 space-y-1">
-                <p><strong>Last updated:</strong> January 1, 2025</p>
+                <p><strong>Last updated:</strong> July 10, 2025</p>
                 <p>
                   For questions about this policy, contact us at{' '}
                   <a href="mailto:support@synergionix.com" className="text-blue-600 hover:underline">

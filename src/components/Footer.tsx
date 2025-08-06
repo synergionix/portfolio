@@ -110,7 +110,8 @@ const Footer = () => {
             </div>
 
             {/* Social Links */}
-            <div className="flex flex-wrap gap-3">
+            {/* TODO: Create and add actual social links */}
+            {/* <div className="flex flex-wrap gap-3">
               {socialLinks.map((social, index) => (
                 <a
                   key={index}
@@ -123,7 +124,7 @@ const Footer = () => {
                   <social.icon className="h-5 w-5" />
                 </a>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Services */}

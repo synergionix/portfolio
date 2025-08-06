@@ -12,7 +12,7 @@ const Blog = () => {
     {
       title: 'The Future of AIMS Compliance in 2025',
       excerpt: 'Exploring upcoming changes in Australian Information Management Standards and how organizations can prepare.',
-      author: 'John Smith',
+      author: 'Raja Ramachandran',
       date: '2025-01-15',
       category: 'Compliance',
       image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=600&q=80'
@@ -20,7 +20,7 @@ const Blog = () => {
     {
       title: 'AI Implementation Best Practices for Enterprise',
       excerpt: 'Key considerations and strategies for successful AI adoption in large organizations.',
-      author: 'Sarah Johnson',
+      author: 'Raja Ramachandran',
       date: '2025-01-10',
       category: 'AI Solutions',
       image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80'
@@ -28,7 +28,7 @@ const Blog = () => {
     {
       title: 'ISO 27001 Certification: A Step-by-Step Guide',
       excerpt: 'Complete roadmap for achieving ISO 27001 certification with practical tips and insights.',
-      author: 'Michael Brown',
+      author: 'Raja Ramachandran',
       date: '2025-01-05',
       category: 'ISMS',
       image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80'
